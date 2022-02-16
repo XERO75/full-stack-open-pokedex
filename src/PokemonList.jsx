@@ -9,6 +9,7 @@ const PokemonList = ({ pokemonList }) => {
           key={id}
           to={`/pokemon/${name}`}
           className="list-item"
+          href={'/pokemon/' + name}
           style={{
             backgroundImage: `url(${`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`})`,
           }}
